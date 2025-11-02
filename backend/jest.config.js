@@ -1,4 +1,1 @@
-export default {
-  testEnvironment: "node",
-  transform: {}
-};
+export default { testEnvironment: "node", transform: {} }; 
