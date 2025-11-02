@@ -10,10 +10,10 @@ RUN npm install --omit=dev
 # Copy the rest of your app
 COPY . .
 
-# Make sure the data folder exists
+# Ensure SQLite data folder exists
 RUN mkdir -p /app/data
 
-# Cloud Run expects the container to listen on port 8080
+# Cloud Run requires port 8080
 ENV PORT=8080
 EXPOSE 8080
 
