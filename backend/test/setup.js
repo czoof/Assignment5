@@ -1,1 +1,1 @@
-import '../init_db.cjs';
+require('../init_db.cjs');
