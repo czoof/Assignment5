@@ -47,6 +47,7 @@ jobs:
         with:
           workload_identity_provider: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER }}
           service_account: ${{ secrets.SERVICE_ACCOUNT_EMAIL }}
+          audience: "https://github.com/czoof/Assignment5"
 
       # 🐳 Build Docker images (only if tests pass)
       - name: Build and push backend image
