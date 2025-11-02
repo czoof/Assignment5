@@ -1,6 +1,7 @@
 {
   "name": "recipe-backend",
   "version": "1.0.0",
+  "type": "module",
   "description": "Recipe sharing API server",
   "main": "server.js",
   "scripts": {
