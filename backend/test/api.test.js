@@ -1,4 +1,4 @@
-import request from 'supertest';
+const request = require('supertest');
 import app from '../server.js';
 
 describe('Recipe API Endpoints', () => {
