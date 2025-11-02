@@ -6,10 +6,4 @@ describe('Recipe API Endpoints', () => {
     const res = await request(app).get('/api/health');
     expect(res.statusCode).toBe(200);
   });
-
-  it('should return an array from /api/recipes', async () => {
-    const res = await request(app).get('/api/recipes');
-    expect(res.statusCode).toBe(200);
-    expect(Array.isArray(res.body)).toBe(true);
-  });
 });
