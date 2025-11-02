@@ -1,1 +1,1 @@
-import '../init_db.js';
+import '../init_db.cjs';
